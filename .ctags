@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Get	server.go	/^func (server *Server) Get(path string, handler Handler) *Server {$/;"	f
+Handler	response.go	/^type Handler interface {$/;"	t
+Match	router.go	/^func (r *Route) Match(method Method, path string) (params map[string]string, found bool) {$/;"	f
+Method	server.go	/^type Method		string$/;"	t
+Middleware	middleware.go	/^type Middleware interface {$/;"	t
+NewRoute	router.go	/^func NewRoute(path string, method Method, handler Handler) *Route {$/;"	f
+Post	server.go	/^func (server *Server) Post(path string, handler Handler) *Server {$/;"	f
+Request	request.go	/^type Request struct {$/;"	t
+Response	response.go	/^type Response struct {$/;"	t
+Route	router.go	/^type Route struct {$/;"	t
+ServeHTTP	server.go	/^func (server *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {$/;"	f
+Server	server.go	/^type Server struct {$/;"	t
+Use	server.go	/^func (server *Server) Use(middleware Middleware) *Server {$/;"	f
+mosquito	middleware.go	/^package mosquito$/;"	p
+mosquito	request.go	/^package mosquito $/;"	p
+mosquito	response.go	/^package mosquito$/;"	p
+mosquito	router.go	/^package mosquito$/;"	p
+mosquito	server.go	/^package mosquito$/;"	p
+server	server.go	/^var server	*Server$/;"	v
