@@ -4,6 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FileSystemRenderer	template.go	/^type FileSystemRenderer struct {$/;"	t
 Get	server.go	/^func (server *Server) Get(path string, handler Handler) *Server {$/;"	f
 Handler	response.go	/^type Handler interface {$/;"	t
 Match	router.go	/^func (r *Route) Match(method Method, path string) (params map[string]string, found bool) {$/;"	f
@@ -11,6 +12,7 @@ Method	server.go	/^type Method		string$/;"	t
 Middleware	middleware.go	/^type Middleware interface {$/;"	t
 NewRoute	router.go	/^func NewRoute(path string, method Method, handler Handler) *Route {$/;"	f
 Post	server.go	/^func (server *Server) Post(path string, handler Handler) *Server {$/;"	f
+Render	template.go	/^func (renderer *FileSystemRenderer) Render(w io.Writer, file string, data interface{}) error {$/;"	f
 Request	request.go	/^type Request struct {$/;"	t
 Response	response.go	/^type Response struct {$/;"	t
 Route	router.go	/^type Route struct {$/;"	t
@@ -22,4 +24,6 @@ mosquito	request.go	/^package mosquito $/;"	p
 mosquito	response.go	/^package mosquito$/;"	p
 mosquito	router.go	/^package mosquito$/;"	p
 mosquito	server.go	/^package mosquito$/;"	p
+mosquito	template.go	/^package mosquito$/;"	p
+parse	template.go	/^func (renderer *FileSystemRenderer) parse(file string, output *template.Template) error {$/;"	f
 server	server.go	/^var server	*Server$/;"	v
